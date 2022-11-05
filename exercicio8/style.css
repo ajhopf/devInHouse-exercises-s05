@@ -1,0 +1,70 @@
+html * {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(159, 96, 14, 0.72);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#logarForm {
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.formDiv {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formDiv input {
+  padding: 0.25rem;
+  text-align: center;
+}
+
+#logarForm button {
+  margin: 0.5rem;
+  padding: 0.25rem;
+}
+
+.mensagem h2 {
+  margin-top: 1rem;
+}
+
+.mensagem h2.erro {
+  color: red;
+}
+
+footer {
+  height: 80px;
+  background-color: rgba(159, 96, 14, 0.72);
+}
+
